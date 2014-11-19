@@ -1,11 +1,11 @@
 [
 {
-  "modid": "armourersWorkshop",
-  "name": "Armourer's Workshop",
-  "description": "Minecraft armour customization mod.",
+  "modid": "beaconRenderFix",
+  "name": "Beacon Render Fix",
+  "description": "Makes the Minecraft beacon beam rotate smoothly.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/RiskyKen/Armourers-Workshop",
+  "url": "https://github.com/RiskyKen/Beacon-Render-Fix",
   "updateUrl": "",
   "authorList": ["RiskyKen"],
   "credits": "",
