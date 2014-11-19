@@ -45,21 +45,3 @@ processResources {
         exclude 'mcmod.info'
     }
 }
-
-task apiJar(type: Jar) {
-    from sourceSets.main.allSource
-	from sourceSets.main.output
-	include 'riskyken/armourersWorkshop/api/**' 
-    classifier = 'api'
-}
-
-task devJar(type: Jar) {
-    from sourceSets.main.allSource
-	from sourceSets.main.output
-    classifier = 'dev'
-}
-
-artifacts {
-	archives apiJar
-	archives devJar
-}
