@@ -1,0 +1,16 @@
+[
+{
+  "modid": "armourersWorkshop",
+  "name": "Armourer's Workshop",
+  "description": "Minecraft armour customization mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/RiskyKen/Armourers-Workshop",
+  "updateUrl": "",
+  "authorList": ["RiskyKen"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
