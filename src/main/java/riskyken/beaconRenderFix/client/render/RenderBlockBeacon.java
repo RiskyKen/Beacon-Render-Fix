@@ -10,8 +10,6 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import riskyken.beaconRenderFix.utils.ModLogger;
-
 public class RenderBlockBeacon extends TileEntitySpecialRenderer {
 
     private static final ResourceLocation beamTexture = new ResourceLocation("textures/entity/beacon_beam.png");
@@ -43,7 +41,6 @@ public class RenderBlockBeacon extends TileEntitySpecialRenderer {
             OpenGlHelper.glBlendFunc(770, 1, 1, 0);
             float f2 = ((float)(System.currentTimeMillis() - startTick) / 50);
             //f2 = (float)(tileEntity.getWorldObj().getTotalWorldTime() + p_147500_8_);
-            ModLogger.log(f2);
             float f3 = -f2 * 0.2F - (float)MathHelper.floor_float(-f2 * 0.1F);
             byte b0 = 1;
             double d3 = (double)f2 * 0.025D * (1.0D - (double)(b0 & 1) * 2.5D);
