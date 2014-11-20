@@ -28,8 +28,7 @@ public class RenderBlockBeacon extends TileEntitySpecialRenderer {
         float f1 = tileEntity.func_146002_i();
         GL11.glAlphaFunc(GL11.GL_GREATER, 0.1F);
 
-        if (f1 > 0.0F)
-        {
+        if (f1 > 0.0F) {
             Tessellator tessellator = Tessellator.instance;
             this.bindTexture(beamTexture);
             GL11.glTexParameterf(GL11.GL_TEXTURE_2D, GL11.GL_TEXTURE_WRAP_S, 10497.0F);
